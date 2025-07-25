@@ -40,7 +40,7 @@ export default function App() {
             onMouseDown={(e) => (e.currentTarget.style.transform = 'translateY(2px)')}
             onMouseUp={(e) => (e.currentTarget.style.transform = 'translateY(0)')}
           >
-            SLT
+            ABC
           </button>
           <button
             onClick={() => navigate('/test/drc/')}
