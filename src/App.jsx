@@ -35,7 +35,7 @@ export default function App() {
         <h1 style={headingStyle}>Welcome to DebtX</h1>
         <div style={buttonContainerStyle}>
           <button
-            onClick={() => navigate('/slt/')}
+            onClick={() => navigate('/test/slt/')}
             style={buttonStyle}
             onMouseDown={(e) => (e.currentTarget.style.transform = 'translateY(2px)')}
             onMouseUp={(e) => (e.currentTarget.style.transform = 'translateY(0)')}
@@ -43,7 +43,7 @@ export default function App() {
             SLT
           </button>
           <button
-            onClick={() => navigate('/drc/')}
+            onClick={() => navigate('/test/drc/')}
             style={buttonStyle}
             onMouseDown={(e) => (e.currentTarget.style.transform = 'translateY(2px)')}
             onMouseUp={(e) => (e.currentTarget.style.transform = 'translateY(0)')}
